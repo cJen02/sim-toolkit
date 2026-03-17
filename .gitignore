@@ -1,0 +1,13 @@
+# Create .gitignore to exclude venv and junk
+@"
+Dock
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+"@ | Out-File -FilePath .gitignore -Encoding utf8
