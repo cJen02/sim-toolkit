@@ -1,1 +1,1 @@
-## Basic Simulation Toolkit x MuJoCo | MyoSiote
+## Basic Simulation Toolkit x MuJoCo \[MyoSuite\]
