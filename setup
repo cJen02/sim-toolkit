@@ -5,4 +5,6 @@ git config --global user.email "you@example.com"
 git remote add origin https://github.com/cJen02/sim-toolkit.git
 gh repo create sim-toolkit --private --source=. --remote=origin --push
 git remote add origin https://github.com/cJen02/sim-toolkit.git
+git add .
+git commit -m "update"
 git push -u origin main
