@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./workspace/test_",
+        "./workspace/test_",
+        "./workspace/test_"
+    ]
+}

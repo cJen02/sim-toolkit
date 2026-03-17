@@ -1,0 +1,13 @@
+services:
+  rl:
+    build: .
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - MUJOCO_GL=egl
+      - JUPYTER_TOKEN=mujoco
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./workspace:/workspace
+    command: bash /workspace/start_jupyter.sh

@@ -1,0 +1,5 @@
+git --version
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+
+pip install myosuite stable_baselines3
